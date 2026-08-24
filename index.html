@@ -3,37 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nárnia</title>
-   <!-- código omitido -->
+    <title>O Reino de Nárnia</title>
 
-<head>
-    <!-- código omitido -->
-        
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-        
-    <!-- código omitido -->
-    </head>
-    
-    <!-- código omitido -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
 <body>
-    <main>
-        <div class="passo ativo" id="passo-0">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
-        </div>
-        <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
-            <div class="passo ativo" id="passo-0">
 
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+            <p>
+                Em uma tarde chuvosa, enquanto explorava uma antiga casa, você encontra um 
+                guarda-roupa misterioso escondido em um quarto esquecido. Ao atravessá-lo, 
+                você descobre um mundo mágico chamado Nárnia, cheio de criaturas fantásticas 
+                e segredos antigos.
+            </p>
+
+            <button class="btn-proximo" data-proximo="1">
+                Explorar a floresta congelada
+            </button>
+
+            <button class="btn-proximo" data-proximo="2">
+                Seguir a trilha iluminada
+            </button>
         </div>
-        </main>
-        <script src="script.js"></script>
+
+
+        <div class="passo" id="passo-1">
+            <p>
+                Você caminha pela floresta coberta de neve e encontra uma pequena casa.
+                Lá dentro existe uma criatura misteriosa que conhece histórias sobre a 
+                Feiticeira Branca.
+            </p>
+
+            <button class="btn-proximo" data-proximo="3">
+                Conversar com a criatura
+            </button>
+
+            <button class="btn-proximo" data-proximo="4">
+                Continuar sozinho pela floresta
+            </button>
+        </div>
+
+
+        <div class="passo" id="passo-2">
+            <p>
+                A trilha leva até um grande castelo dourado. Dizem que ali vivem os antigos 
+                reis e rainhas de Nárnia.
+            </p>
+
+            <button class="btn-proximo" data-proximo="5">
+                Entrar no castelo
+            </button>
+
+            <button class="btn-proximo" data-proximo="6">
+                Procurar Aslam
+            </button>
+        </div>
+
+
+        <div class="passo" id="passo-3">
+            <p>
+                A criatura revela que somente alguém corajoso poderá ajudar Nárnia a recuperar 
+                sua liberdade. Uma grande batalha está próxima.
+            </p>
+
+            <button class="btn-proximo" data-proximo="7">
+                Aceitar a missão
+            </button>
+        </div>
+
+
+        <div class="passo" id="passo-5">
+            <p>
+                No castelo você encontra antigos mapas de Nárnia e descobre caminhos secretos 
+                que podem levar até Aslam.
+            </p>
+
+            <button class="btn-proximo" data-proximo="6">
+                Seguir os mapas
+            </button>
+        </div>
+
+
+        <div class="passo" id="passo-6">
+            <p>
+                Após uma longa jornada, você encontra Aslam, o grande leão de Nárnia.
+                Ele diz que sua coragem será essencial para restaurar a paz no reino.
+            </p>
+
+            <button class="btn-proximo" data-proximo="7">
+                Lutar pela liberdade de Nárnia
+            </button>
+        </div>
+
+
+        <div class="passo" id="passo-7">
+            <p>
+                Você ajuda os habitantes de Nárnia e a magia retorna ao reino.
+                O inverno termina e uma nova era começa. Sua aventura será lembrada para sempre!
+            </p>
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>

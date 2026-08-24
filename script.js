@@ -1,11 +1,21 @@
-const avanca = document.querySelectorAll('.btn-proximo');
+const botoes = document.querySelectorAll('.btn-proximo');
 
-avanca.forEach(button => {
-    button.addEventListener('click', function(){
-        const atual = document.querySelector('.ativo');
-        const proximoPasso = 'passo-' + this.getAttribute('data-proximo');
+botoes.forEach(botao => {
 
-        atual.classList.remove('ativo');
-        document.getElementById(proximoPasso).classList.add('ativo');
-    })
-})
+    botao.addEventListener('click', function() {
+
+        // Encontra o passo atual
+        const passoAtual = document.querySelector('.passo.ativo');
+
+        // Pega o próximo passo indicado no botão
+        const proximo = "passo-" + this.getAttribute('data-proximo');
+
+        // Remove o passo atual
+        passoAtual.classList.remove('ativo');
+
+        // Mostra o próximo passo
+        document.getElementById(proximo).classList.add('ativo');
+
+    });
+
+});
