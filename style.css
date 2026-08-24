@@ -1,0 +1,27 @@
+/* código omitido */
+
+body {
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1 {
+    color: #FF6347; /* Cor do texto */
+  }
+  
+  body {
+    background-color: #9bdd92; /* Cor de fundo */
+  }
